@@ -13,7 +13,7 @@ need another complete reivew of all code!
 This version DDD aims to solve the issue archetecture agreement by breaking a feature into multiplue logically different PRs: 
 documentation, development, testing. This being said, this DDD is implemented through a PR, and is at will enforced.
 
-- Documentation phase:
+### Documentation phase:
 1) All files are created via 'File Creation'.
 2) All classes and constructors are created.
 3) All functions are created and return a default value.
@@ -21,15 +21,15 @@ documentation, development, testing. This being said, this DDD is implemented th
 5) Documentation behind functions are given, using inline annotations /** **/
 6) All unit tests are witten and should pass.
 
-- Development phase:
+#### Development phase:
 1) Implement all the default functions.
 2) Add unit tests as nessicary.
 3) Tests should continue to pass.
 
-- Test phase:
+#### Test phase:
 1) Implement integration tests.
 
-- File Creation:
+#### File Creation:
 When a file is created it must state
 1) Purpose - why is this file needed
 
